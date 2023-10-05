@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="singleproduct.css" type="text/css"/>
+    <script src="script.js"></script>
+</head>
+    
+<body>
+    <div id="logo">
+        <h1><i>Kawiarnia</i></h1>
+    </div>
+
+    <div id="container">
+        <div id="topbar">
+            <b><a href="index.html"><div class="topoption">Strona główna</div></a>
+            <a href="Oferta.html"><div class="topoption">Oferta</div></a>
+            <a href="Kontakt.html"><div class="topoption">Kontakt</div></a>
+            <a href="Info.html"><div class="topoption">O nas</div></a></b>
+            <div style="clear:both"></div>
+        </div>
+        <br>
+        <div id="content">
+            <a href="Ciasta.html"><div class="back">Powrót</div></a>
+            <div class="productdiv">
+                <img class="productclass" src="cake.png"/>
+            </div>
+            <div class="description">
+                3 BIT - Popularne ciasto bez pieczenia składające się z 3 warstw herbatników przełożonych masą kajmakową, masą budyniową oraz bitą śmietaną posypaną mieszanką startej czekolady, orzechów i kakao
+                <h3>Ile sztuk?</h3>
+                <input id="numb" type="number" min="1" value="1">
+                <p><button type="button" id="addToCartButton" class="button"><b>Dodaj do koszyka</b></button></p>
+                <p id="productAdded"></p>
+            </div>
+        </div>
+        <br>
+        <div id="footer">
+            <i><b>Website made by Jakub Podleś &copy; All rights reserved</b></i>
+        </div>
+    </div>
+</body>
+</html>

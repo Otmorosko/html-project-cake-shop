@@ -1,0 +1,32 @@
+.product
+{
+    height:150px;
+    width:20%;
+    transition: transform .5s;
+    padding:20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.product:hover
+{
+    transform: scale(1.2);
+}
+.img
+{
+    height:100%;
+    width:100%;
+    max-height:150px;
+    max-width:150px;
+    float: left;
+    border:0px solid black;
+    border-radius: 10px;
+    background-color:bisque;
+}
+#content
+{
+    height:400px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
